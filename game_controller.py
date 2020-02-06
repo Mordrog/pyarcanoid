@@ -16,7 +16,6 @@ BALL_START_POSITION = pygame.Vector2(board_center_x() - (settings.BALL_SIZE[0]) 
 
 class GameController(object):
     def __init__(self, screen):
-        super().__init__()
         self.screen = screen
         self.score = Score(screen)
         self.info_box = InfoBox(screen)
