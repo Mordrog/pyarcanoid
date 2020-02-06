@@ -1,2 +1,3 @@
+scipy>=0.15.1
 scikit-image
 pygame==1.9.6
